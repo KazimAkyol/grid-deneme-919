@@ -4,3 +4,27 @@
   box-sizing: border-box;  
 }
 
+body{
+    background-color: aquamarine;
+}
+
+.container{
+    width: 1200px;
+    margin: 10px auto;
+}
+
+.links{
+    display: grid;
+    grid-template-rows: 50px;
+    grid-template-columns: repeat(5, 225px);
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
