@@ -29,46 +29,57 @@ body {
   font-weight: bold;
 }
 
-.header{
-    background-color: lemonchiffon;
-    display: grid;
-    grid-template: 90px / 150px 1050px;
-    padding: 20px;
+.header {
+  background-color: lemonchiffon;
+  display: grid;
+  grid-template: 90px / 150px 1050px;
+  padding: 20px;
 }
 
-.slogan{
-    display: grid;
-    justify-items: center;
-    align-items: center;
+.slogan {
+  display: grid;
+  justify-items: center;
+  align-items: center;
 }
 
-.content{
-    display: grid;
-    grid-template: auto / 200px 1000px;
+.content {
+  display: grid;
+  grid-template: auto / 200px 1000px;
 }
 
-.menu{
-    display: grid;
-    background-color: lemonchiffon;
-    border: 1px solid black;
-    grid-template-rows: repeat(6,50px);
-    padding: 10px;
+.menu {
+  display: grid;
+  background-color: lemonchiffon;
+  border: 1px solid black;
+  grid-template-rows: repeat(6, 50px);
+  padding: 10px;
 }
 
-.menu a{
-    background-color: blueviolet;
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-    padding: 10px;
+.menu a {
+  background-color: blueviolet;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.menu a:hover {
+  background-color: crimson;
+}
+
+,
+.text {
+  background-color: burlywood;
+  padding: 20px;
+}
+
+.text h1{
     margin-bottom: 10px;
 }
 
-.menu a:hover{
-    background-color: crimson;
-}
-
-,text{
-    background-color: burlywood;
-    padding: 20px;
+.text p img{
+    margin-right: 20px;
+    float: left;
+    display: block;
 }
