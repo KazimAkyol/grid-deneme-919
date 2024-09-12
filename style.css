@@ -83,3 +83,24 @@ body {
     float: left;
     display: block;
 }
+
+.text p{
+    clear: left;
+    line-height: 125%;
+    margin: 10px 0px;
+}
+
+.footer{
+    display: grid;
+    grid-template: 20px / 1fr 1fr;
+    padding: 20px;
+    background-color: brown;
+}
+
+.footer p:first-child{
+    text-align: left;
+}
+
+.footer p:nth-child(2){
+    text-align: right;
+}
